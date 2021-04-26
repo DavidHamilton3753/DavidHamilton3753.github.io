@@ -2,20 +2,36 @@ body{
     background: #5fc8ed;
     font-family:Arial, Helvetica, sans-serif;
 }
-.assignment{
-    display:flex;
-    padding: 10px;
+
+.assignments{
+    display: flex;
+    flex-wrap: wrap;
 }
-.assignment img{
-    width: 735px;
-    height:450px;
+.assignment{
     padding: 10px;
+    width:20%;
+    margin: 10px;
+    background: #c2c2c2;
+    border-radius: 5px;
+}
+
+
+.assignment img{
+    width: 200px;
+    height:auto;
+    margin:10px;
+    background: white;
+    border-radius: 5px;
+
+
 }
 
 
 .Proto{
     display:flex;
-    padding:10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    width:30%
 }
 .Proto img{
     padding:10px;
@@ -25,7 +41,9 @@ body{
 
 .special{
     display:flex;
-    padding:10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    width:30%
 }    
 .special img{
     padding:10px;
